@@ -7,6 +7,8 @@ vim.opt.shiftwidth = 2   -- what about autoindent
 vim.opt.expandtab = true -- use spaces, not tabs
 vim.opt.softtabstop = 2  -- number of spaces that a tab counts for while performing editing operations
 
-vim.opt.colorcolumn = "120"
+vim.opt.colorcolumn = "120" -- add a column in 120. character
 
 vim.opt.updatetime = 300 -- for CursorHold
+
+vim.opt.clipboard = "unnamedplus"
