@@ -21,7 +21,9 @@ return {
         },
         lualine_x = {
           {
-            function() return "  " .. require("lazy").stats().count .. " plugins" end,
+            function()
+              return "  " .. require("lazy").stats().count .. " plugins"
+            end,
             color = { fg = "#ff9e64" },
           },
           "encoding",
@@ -40,7 +42,6 @@ return {
         lualine_y = {},
         lualine_z = {},
       },
-    }
+    },
   },
 }
-
