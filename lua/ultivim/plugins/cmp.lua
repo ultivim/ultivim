@@ -1,6 +1,8 @@
 return {
   {
     "saghen/blink.cmp",
+    lazy = true,
+    event = { "InsertEnter", "CmdlineEnter" },
     dependencies = { "rafamadriz/friendly-snippets" },
 
     version = "1.*",
