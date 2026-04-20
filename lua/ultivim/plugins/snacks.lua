@@ -18,5 +18,28 @@ return {
       statuscolumn = { enabled = true },
       words = { enabled = true },
     },
+    keys = {
+      {
+        "<leader>ff",
+        function()
+          Snacks.picker.files()
+        end,
+        desc = "Find files",
+      },
+      {
+        "<leader>fd",
+        function()
+          Snacks.picker.diagnostics()
+        end,
+        desc = "Fuzzy find diagnostics",
+      },
+      {
+        "<leader>fk",
+        function()
+          Snacks.picker.keymaps()
+        end,
+        desc = "Find keymaps",
+      },
+    },
   },
 }
