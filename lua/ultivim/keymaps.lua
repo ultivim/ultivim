@@ -1,0 +1,3 @@
+vim.keymap.set("n", "<leader>ff", function() Snacks.picker.files() end, { desc = "Find files" })
+vim.keymap.set("n", "<leader>fd", function() Snacks.picker.diagnostics() end, { desc = "Find diagnostics" })
+vim.keymap.set("n", "<leader>fk", function() Snacks.picker.keymaps() end, { desc = "Find keymaps" })
