@@ -22,6 +22,27 @@ return {
         desc = "Find files",
       },
       {
+        "<leader>fg",
+        function()
+          Snacks.picker.grep()
+        end,
+        desc = "Live grep",
+      },
+      {
+        "<leader>fb",
+        function()
+          Snacks.picker.buffers()
+        end,
+        desc = "Buffers",
+      },
+      {
+        "<leader>fr",
+        function()
+          Snacks.picker.recent()
+        end,
+        desc = "Recent files",
+      },
+      {
         "<leader>fd",
         function()
           Snacks.picker.diagnostics()
