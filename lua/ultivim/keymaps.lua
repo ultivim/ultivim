@@ -21,4 +21,6 @@ vim.keymap.set("n", "gl", function()
   vim.diagnostic.open_float()
 end, { desc = "Diagnostics - Open Float" })
 
+vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
+
 vim.keymap.set("n", "<leader>l", "<cmd>Lazy<cr>", { desc = "Lazy.nvim" })
