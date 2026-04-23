@@ -14,6 +14,18 @@ A Neovim distro for everyone.
 - Code outline with outline.nvim
 - Rose Pine colorscheme
 
+## Plugins
+|Plugin|Purpose|
+|-|-|
+|blink.cmp|Completion|
+|gitsigns.nvim + neogit|Git|
+|nvim-treesitter|Syntax highlighting|
+|mason + nvim-lspconfig|LSP|
+|fzf-lua|Fuzzy finder|
+|conform.nvim|Formatting|
+|which-key.nvim|Keybinding hints|
+|trouble.nvim|Diagnostics|
+
 ## Installation
 
 You should clone our [starter](https://github.com/ultivim/starter.git) repo.
