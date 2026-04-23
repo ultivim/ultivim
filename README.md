@@ -12,4 +12,4 @@ nvim
 ```
 ## Screenshots
 ![screenshot](https://i.imgur.com/DxTBfXI.png)
-![video](https://streamable.com/e/gdpmy7?)
+[video 1](https://streamable.com/e/gdpmy7?)
