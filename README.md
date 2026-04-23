@@ -26,6 +26,8 @@ A Neovim distro for everyone.
 |which-key.nvim|Keybinding hints|
 |trouble.nvim|Diagnostics|
 
+and many more in [/lua/ultivim/plugins](lua/ultivim/plugins)!
+
 ## Installation
 
 You should clone our [starter](https://github.com/ultivim/starter.git) repo.
